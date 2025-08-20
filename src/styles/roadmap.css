@@ -1,0 +1,40 @@
+.vertical-timeline-element {
+    margin: 0;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.2rem;
+    color: #480EF2;
+}
+
+.vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #ff2498, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1170px) {
+
+    .vertical-timeline-element:nth-child(odd):not(.vertical-timeline-element--left .vertical-timeline-element-content) {
+        text-align: right;
+    }
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0.75rem 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.35rem 0;
+}
